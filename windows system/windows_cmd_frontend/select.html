@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Select System</title>
+ </head>
+
+<body>
+ <div class="form1">
+  <form action="/cgi-bin/cgi_cmd_files/system_selector.py" method ="post">
+    <img src="assets/user.jpg" alt="Avatar" style="width:200px">
+    <p id="sys_color"> Which system would you like to work on :</p>
+    <select name="system_name">
+      <option>Windows 10</option>
+      <option>RHEL 8</option>
+    </select>
+    <br/>
+    <div>
+      <br>
+    <input type="submit" name=""/>
+  </form>
+  </div>
+</div>
+  
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+    
+    body 
+    {
+      background-image:url("assets/RPnqMdr.jpg");
+      background-size: cover;
+      font-family:Open Sans;
+      overflow:hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+    
+    .form1
+    { 
+      
+      text-align: center;
+      text-decoration-color:green;
+      margin: auto;
+      width: 50vw;
+      height: 50vh;
+      position: absolute;
+      top:1vh;
+      bottom: 1vh;
+      left: 1vw;
+      right: 1vw;
+      margin: auto;
+      padding: 10vh;
+    }
+
+    #sys_color{
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    select{
+      width: 140px;
+      height: 30px;
+      font-weight: bold;
+      border-color: white;
+      font-family:Open Sans;
+    }
+
+    img {
+      border-radius: 50vh;
+    }
+    input{
+      width: 140px;
+      height: 30px;
+      font-weight: bold;
+      border-color: white;
+      font-family:Open Sans;
+
+    }
+
+  </style>
+</body>
+</html>
