@@ -1,6 +1,8 @@
-vm_launcher_page = """
+import config
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+vm_launcher_page = f"""
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<br/>
 	<h1>
 		<p> Kindly wait! we are launching the VM. </p>
 	</h1>
@@ -13,18 +15,18 @@ vm_launcher_page = """
 	</div>
 
 	<script>
-		var tlf = 120;
+		var tlf = {config.delay};
 		function tm()
-		{
-    		var d=new Date();
-        	var h= d.getHours();
-			var m= d.getMinutes();
-			var s=d.getSeconds();
-      		var d1=d.getDate();
-        	var m1=d.getMonth();
-        	var y1=d.getYear();
-        	var a1=m1+1;
-        	var e1=y1+1900;
+		{{
+    		var d  = new Date();
+        	var h  = d.getHours();
+			var m  = d.getMinutes();
+			var s  = d.getSeconds();
+      		var d1 = d.getDate();
+        	var m1 = d.getMonth();
+        	var y1 = d.getYear();
+        	var a1 = m1 + 1;
+        	var e1 = y1 + 1900;
 
         	document.getElementById("p4").innerHTML= h+":"+m+":"+s;
         	document.getElementById("p5").innerHTML= d1+":"+a1+":"+e1;
@@ -33,22 +35,22 @@ vm_launcher_page = """
         	document.getElementById("p5").style.color="DarkMagenta";
 							
 			if (tlf > 0)
-				{
+				{{
 					tlf = tlf - 1;
-				}
-        }
+				}}
+        }}
       
-        var x= setInterval(tm,1000);
+        var x = setInterval(tm, 1000);
 	</script>
         					
 	<style>
 		body 
-		{
+		{{
      		background-color: rgb(180,180,200);
       		font-family:Open Sans;
       		overflow:hidden;
       		height: 100vh;
       		width: 80vw; 				
-   		}			
-    	</style>
+   		}}			
+    </style>
 """
