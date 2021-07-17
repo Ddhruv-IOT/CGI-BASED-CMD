@@ -23,3 +23,10 @@
 - It only controls the "delay" across all the files.
 - value of delay = 300
 - delay is used to give time to Vm to boot properly and connect to network.
+
+# New Features:
+- Added Threading support.
+- dynamically update IP address of VM and base OS.
+- Empty input and Error handeling.
+- changed file structure.
+- Removed extra files and code.
