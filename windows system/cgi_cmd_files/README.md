@@ -4,8 +4,8 @@
 - it selects the system based on user input from the frontend
 - if the input is Windows OS, then it redirects to windows_cgi_cmd.py
 - if the input is RHEL-8 then: 
-    > if RHEL 8 is already working, then it will connect to VM using its IP address.
-    > else RHEL 8 will be launched and then it will connect to VM.
+    > - if RHEL 8 is already working, then it will connect to VM using its IP address.
+    > - else RHEL 8 will be launched and then it will connect to VM.
 - For getting VM IP Guest Additions are used.
 
 # vm_launcher file:
