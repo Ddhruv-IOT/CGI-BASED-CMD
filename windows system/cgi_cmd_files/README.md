@@ -27,6 +27,6 @@
 # New Features:
 - Added Threading support.
 - dynamically update IP address of VM and base OS.
-- Empty input and Error handeling.
+- Empty input and Error handling.
 - changed file structure.
 - Removed extra files and code.
