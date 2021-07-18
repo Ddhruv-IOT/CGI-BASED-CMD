@@ -4,7 +4,7 @@ cmd_page = """
 
 	<html>
 		<head>
-			<title>CONTROL PANEL</title>
+			<title>WINDOWS CONTROL PANEL</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 		</head>
 

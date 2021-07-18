@@ -37,7 +37,7 @@ if __name__ == "__main__":
 		if "REHL8 Clone" in vm_name:
 
 			vm_ip = sp.getoutput("""VBoxManage guestproperty get "REHL8 Clone" "/VirtualBox/GuestInfo/Net/0/V4/IP" """)
-			print(f"""<meta http-equiv="refresh" content="0;url=http://{vm_ip.split(" ")[1]}/cgi-bin/doccmd.py?z=date" /> """)
+			print(f"""<meta http-equiv="refresh" content="0;url=http://{vm_ip.split(" ")[1]}/cgi-bin/linux_shell/linux_cgi_shell.py" /> """)
 	
 		else:
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 			time.sleep(delay + 2)
 			disp_output(vm_ip)
 
-			print(f"""<meta http-equiv="refresh" content="1;url=http://{vm_ip.split(" ")[1]}/cgi-bin/doccmd.py?z=date" /> """)
+			print(f"""<meta http-equiv="refresh" content="1;url=http://{vm_ip.split(" ")[1]}/cgi-bin/linux_shell/linux_cgi_shell.py" /> """)
 
 			if ("Waiting" and "started") in start_vm:
 				disp_output("Status: successful")
