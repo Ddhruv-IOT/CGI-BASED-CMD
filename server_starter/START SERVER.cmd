@@ -1,5 +1,5 @@
 @echo off
 title LAUNCH-SERVER
 color A
-python test.py
+python launcher.py
 PAUSE
