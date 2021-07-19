@@ -4,11 +4,11 @@
 
 In this fast world everyone wants to save time, be more productive and no one wants to remember big commands or equation,
 everyone prefers to google it rather than remembering it. 
-As I am also a human, same applies to me, I don't like to remember CLI commands but at the same time, I also know that how important they are for a CSE student.
-So to deal with this situation WEB based CMD is created.
+<br/> As I am also a human, same applies to me, I don't like to remember CLI commands but at the same time, I also know that how important they are for a CSE student.
+<br/>So to deal with this situation WEB based CMD is created.
 
 In this web based cmd I had make a dropdown list from where you can select the command.
-Hence you can use the command also and you don't have to remember it or google it.
+<br/>Hence you can use the command also and you don't have to remember it or google it.
 
 I have developed this using CGI scripting for both Windows and RHEL 8. 
 
@@ -16,12 +16,12 @@ We can start the CMD in our base OS and from that we can control our base OS i.e
 <br/> Even we can control both the OS from our mobile also.
 
 I had tried to made it dynamic and automated i.e 
-on single click the CGI - based - CMD for windows will open.
-no need to remember ip address, code will automatically update it.
+<br/> on single click the CGI - based - CMD for windows will open.
+<br/> no need to remember ip address, code will automatically update it.
 
 If we choose OS to be RHEL 8, so the code will automatiaclkly connect to vm,
-we dont need to manullay go and start the vm code will do it automaticcly.
-Also ip of vm will be updated automatically
+<br/> we dont need to manullay go and start the vm code will do it automaticcly.
+<br/> Also ip of vm will be updated automatically
 
 ## Tools And Technologies Used:
 
@@ -47,23 +47,31 @@ Also ip of vm will be updated automatically
 
 ### Case I:
 Here, I will be demonstrating the power of a single click.
-On single click, the server will be launched, browser will open automaticcaly
+<br/> On single click, the server will be launched, browser will open automaticcaly
 and will ask on which system would you like to work.
+<br/> I have chosen Windows 10.
 
-[Link to Video](https://youtu.be/K3utthJaocY)
+[Link to Video - Part 1](https://youtu.be/EtJRetCNOM4)
 
 ### Case II:
+In this case, I have chosen RHEL8 as my OS and will run some command on it using web based cmd
+<br/> Here, RHEL8 was already running.
 
-[Link to Video](https://youtu.be/K3utthJaocY)
+[Link to Video - Part 2](https://youtu.be/1_QpEwFUy1o)
 
 ### Case III:
-[Link to Video](https://youtu.be/K3utthJaocY)
+In this case again, I have selected RHEL 8 as my OS but this time, its not already turned on.
+<br/> In this case my code will automatically start the vm, it takes 2-3 mins till the time a waiting page will be displayeda
+<br/> after that i can run my commands
 
-### Case IV:
-[Link to Video](https://youtu.be/K3utthJaocY)
+[Link to Video - Part 3](https://youtu.be/EoMdKkjeNLo)
 
 ## Detailed Article:
 [Link to Article](https://www.linkedin.com/feed/update/urn:li:ugcPost:6715690477959614464?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28*%2Curn%3Ali%3AugcPost%3A6715690477959614464%29)
+
+## Prequisties:
+
+## New Updates:
 
 ## Future scope:
 - More commands can be added.
