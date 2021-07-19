@@ -70,6 +70,8 @@ In this case again, I have selected RHEL 8 as my OS but this time, its not alrea
 [Link to Article](https://www.linkedin.com/feed/update/urn:li:ugcPost:6715690477959614464?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28*%2Curn%3Ali%3AugcPost%3A6715690477959614464%29)
 
 ## Prequisties:
+- Path of Virtual Box should be set 
+- 
 
 ## New Updates:
 
@@ -81,8 +83,5 @@ In this case again, I have selected RHEL 8 as my OS but this time, its not alrea
 - Moving the whole project to Flask Server
  
  ## Notes and known issues:
- - This app works only on Windows.
- - To launch an app from this app, the path is required to be set in env. var.
- - The app will stop or hang when it launches apps like chrome.
 
 # Thank You
