@@ -70,10 +70,18 @@ In this case again, I have selected RHEL 8 as my OS but this time, its not alrea
 [Link to Article](https://www.linkedin.com/feed/update/urn:li:ugcPost:6715690477959614464?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28*%2Curn%3Ali%3AugcPost%3A6715690477959614464%29)
 
 ## Prequisties:
-- Path of Virtual Box should be set 
-- 
+- Path of Virtual Box should be set. 
+- CGI should be enabled.
+- Path of python should be set.
+- Both OS should be connected to LAN.
+- VM should be in Bridged network mode.
+- Guest additions should be added on VM.
 
 ## New Updates:
+- Added Threading Support 
+- Added Automatic IP address updater for both the OSs
+- Removed redudent codes
+- minor output bug fixes
 
 ## Future scope:
 - More commands can be added.
@@ -83,5 +91,7 @@ In this case again, I have selected RHEL 8 as my OS but this time, its not alrea
 - Moving the whole project to Flask Server
  
  ## Notes and known issues:
-
+ - May cause security losses as no authetcation system is added
+ - Under development
+ 
 # Thank You
