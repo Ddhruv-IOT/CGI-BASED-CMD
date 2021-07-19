@@ -92,5 +92,21 @@ In this case, again, I have selected RHEL 8 as my OS but this time, it's not alr
  ## Notes and known issues:
  - May cause security losses as no authentication system is added
  - Under development
+
+# Some Outputs
+## First page - System selector (Selected Windows)
+![server op 1](https://user-images.githubusercontent.com/54676859/126180486-963cd25b-94d5-41fa-b391-c3c6b667a82b.png)
+
+## Second Page - Running command on Windows System WEB CMD
+![server op 2](https://user-images.githubusercontent.com/54676859/126180648-c71d1d0f-2bb3-4d52-a647-4c01eb615e5d.png)
+
+## Third Page - System selector (Selected RHEL 8)
+![server op 3](https://user-images.githubusercontent.com/54676859/126180749-55fb3e95-8bab-40f2-b10d-1d4c6b4b9c53.png)
+
+## Fourth Page - VM being launched by code automatically
+![server op 4](https://user-images.githubusercontent.com/54676859/126181088-aa085695-419e-49a3-9be4-427521de2a6b.png)
+
+## Fifth Page - Running command on RHEL 8 System WEB CMD
+![server op 6](https://user-images.githubusercontent.com/54676859/126181349-aa63fc4d-1b2d-440c-8fda-6d09818d1a47.png)
  
 # Thank You
