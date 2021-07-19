@@ -84,10 +84,11 @@ In this case, again, I have selected RHEL 8 as my OS but this time, it's not alr
 
 ## Future scope:
 - More commands can be added.
-- Can be made more dynamic and easy to setup 
+- UI can be improved and can be made more intutive.
+- Can be made more dynamic and easy to setup.
 - Artificial Intelligence can be added to provide the functionality to find the apps installed on OS and automatically add them to the menu.
 - For Security purposes, Authentication can be added, as anyone can connect to our IP and can run any command, which can be very hazardous. 
-- Moving the whole project to Flask Server
+- Moving the whole project to Flask Server.
  
  ## Notes and known issues:
  - May cause security losses as no authentication system is added
